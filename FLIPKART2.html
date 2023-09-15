@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles,Electronics,furniture,Grocery...........</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="FLIPKART.css">
+    <link rel="icon" type="image/x-icon" href="flipkart-setting-fusion-learn-oracle-fusion-and-ebs-6.webp"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/264644cb18.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+    <style>
+        *{padding: 0;margin: 0;}
+    </style>
+</head>
+<body>
+  
+      <nav class="navbar fixed-top navbar-expand-lg bg-primary">
+        <div class="container-fluid" style="line-height:20px">
+            <a class="navbar-brand" href="#">
+                <span style="font-family:sans-serif;font-size:20px;color:white;"><b>Flipkart</b></span><br><span style="font-size:13px;color:white;font-family: cursive;">Explore</span> <span style="font-family: cursive;font-size:13px;color:gold;"><b>Plus</b><i class="fa-solid fa-plus"></i></span>
+              </a>
+              <form  role="search" >
+                <input type="search" placeholder="Search for products,brands and more...." aria-label="Search" style="border-top-left-radius:1px;border-bottom-left-radius:1px;height:40px;font-size:15px;border:none;outline: none;width:350px"><img src="https://imgs.search.brave.com/wzECpiRyyXb53FntTApPo1eTPCrb8AthxpRP0KgScPk/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9jZG4x/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvaGF3Y29ucy8z/Mi82OTg4MzgtaWNv/bi0xMTEtc2VhcmNo/LTUxMi5wbmc" style="height:40px;margin-bottom:4px;padding-top:3px;padding-bottom: 8px;background-color: white;border-top-right-radius:1px;border-bottom-right-radius: 1px;">
+                <a href="FLIPKART LOGIN.html"><button type="button" class="button1"><b>Login</b></button></a>
+              </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:white">Become A Seller</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                  More <i class="fa-solid fa-chevrons-down"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-bell" style="padding-right: 20px;"></i>Notification Preferences</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info" style="padding-right: 20px;"></i>24X7 Customer Care</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><span class="material-icons" style="padding-right:17px">trending_up</span>Advertise</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa-solid fa-download" style="padding-right: 20px;"></i>Download</a></li>
+                  
+                </ul>
+              </li>
+
+              
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white"><i class="fa-solid fa-cart-shopping" style="padding-right: 10px;"></i>Cart</a>
+              </li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="result" style="color:yellow;margin-left: 100px;font-weight: bold;font-family:cursive;font-size: 20px;" >"Hello Puruhsoth"</a>
+            </li>
+            
+             
+            
+              
+            
+          </div>
+        </div>
+      </nav>
+     <div class="container" style="margin-left:100px;margin-right:-10px;margin-top:80px;">
+       <div class="row">
+        
+          <div class="col col-lg-4 col-md-4">
+           <div class="row"> 
+            <div class="col" style="padding: 15px;"><img src="gift.webp" style="width:50px"><br>Top Offers</div>
+            <div class="col" style="padding: 15px;"><img src="grocery.webp" style="width:50px"><br>Grocery</div>
+            <div class="col" style="padding: 15px;"><img src="mobile.webp" style="width:50px"><br>Mobiles</div>
+          </div>
+        </div>
+          <div class="col col-lg-4 col-md-4">
+            <div class="row"> 
+                <div class="col" style="padding: 15px;"><img src="fashion.webp" style="width:45px;margin-left:20px;">
+                    <div class="dropdown">
+                    <button style="border:none" class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Fashion
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                      <li><a class="dropdown-item active" href="#">Mens Wear</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Womens Wear</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Kids Wear</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Offer Zone</a></li>
+                    </ul>
+                  </div></div>
+                <div class="col" style="padding: 10px;"><img src="laptop.webp" style="width:50px;margin-left:20px;"><br>
+                    <div class="dropdown">
+                        <button style="border:none" class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fashion
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" href="#">Audio</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Gaming</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Laptops</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Accerories</a></li>
+                        </ul>
+                      </div></div>
+                <div class="col" style="padding: 15px;"><img src="furniture.webp" style="width:45px;margin-left: 10px;">
+                    <div class="dropdown">
+                        <button style="border:none" class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" href="#">Audio</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Gaming</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Laptops</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Accerories</a></li>
+                        </ul>
+                      </div></div>
+              </div>
+          </div>
+          <div class="col col-lg-4 col-md-4">
+            <div class="row"> 
+                <div class="col" style="padding: 15px;"><img src="fridge.webp" style="width:50px;margin-left: 10px;"><br>Appliances</div>
+                <div class="col" style="padding: 15px;padding-left:40px;"><img src="flight.webp" style="width:45px;height:53px"><br>Travel</div>
+                <div class="col" style="padding: 15px;"><img src="toys.webp" style="width:50px;height:47px;margin-left:20px;"><br>
+                    <div class="dropdown">
+                        <button style="border:none" class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Beauty,Toys
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" href="#">Toys</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Medics</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Gifts</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">More...</a></li>
+                        </ul>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div style="width:99%;margin-left:10px;border:2px solid wheat;">
+         <div class="swiper">
+           <div class="swiper-wrapper">
+             <div class="swiper-slide"><img src="Oneplus+bullets+7.webp" style="width:100%;height:300px"></div>
+             <div class="swiper-slide"><img src="Flipkart-Big-Billion-Days-Sale.webp" style="width:100%;height:300px"></div>
+             <div class="swiper-slide"><img src="Nothing-Phone-1-6.webp" style="width:100%;height:300px"></div>
+           </div>
+            <div class="swiper-pagination"></div>
+             <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+                  
+          </div>
+        </div>
+        
+          <div style="width:100%;margin-top: 10px;">
+               <div style="float: left;width:95%;margin-left:30px;border: 2px solid wheat;box-shadow: 5px 5px 5px 5px gray;">
+                <header style="border-bottom: 1px solid grey;"><span style="font-weight:bold ;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:30px">DEALS OF THE DAY</span><button type="button" class="view">VIEW ALL</button></header>
+                <div class="swiper" >
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card-group">
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card1.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Deals On Powerbanks</h5>
+                            <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 399</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card2.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Titan,Sonata,Breil....</h5>
+                            <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 299 and Extra 5% OFF</p>
+                            <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                          </div>
+                        </div>
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card3.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Rakhi and Rakhi sets</h5>
+                            <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 49</p>
+                            <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                          </div>
+                        </div>
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card4.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Stationary Supplies</h5>
+                            <p class="card-text" style="color: green">Extra 10% OFF</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card-group">
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card10.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Deals On Sunglasses</h5>
+                            <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 699</p>
+                            <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+                          </div>
+                        </div>
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card6.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">RC's and Toys</h5>
+                            <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 599 and Extra 15% OFF</p>
+                            <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                          </div>
+                        </div>
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card7.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Womens Footwears</h5>
+                            <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 249</p>
+                            <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                          </div>
+                        </div>
+                        <div class="card" style="padding-top: 30px;border: none;">
+                          <img src="card9.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                          <div class="card-body">
+                            <h5 class="card-title">Mens Footwears</h5>
+                            <p class="card-text" style="color: green">From <i class="fa-solid fa-indian-rupee-sign"></i> 299 Extra 10% OFF</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                   <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                      
+                 </div>
+              
+              </div>
+               
+              
+          
+          </div>
+        
+
+          <div style="width:97%;margin-left: 20px;">
+            <img src="donate.jpg" style="padding: 5px;width:100%;height:200px;margin-top: 20px;margin-bottom: 20px;border: 2px solid wheat;">
+
+
+          </div>
+
+          <div style="float: left;width:98%;margin-left:15px;border: 2px solid wheat;box-shadow: 5px 5px 5px 5px gray;">
+            <header style="border-bottom: 1px solid grey;"><span style="font-weight:bold ;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:30px">DEALS OF THE UPCOMING DAYS</span><button type="button" class="view">VIEW ALL</button></header>
+            <div class="swiper" >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card-group">
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card1.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Deals On Powerbanks</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 399</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="cover.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:20px">
+                      <div class="card-body">
+                        <h5 class="card-title">Deals On Bike Covers</h5>
+                        <p class="card-text" style="color:green">Min 30% OFF</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="rain.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:50px">
+                      <div class="card-body">
+                        <h5 class="card-title">Deals On Umbrellas</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 199</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card2.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Titan,Sonata,Breil....</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 299 and Extra 5% OFF</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card3.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Rakhi and Rakhi sets</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 49</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card4.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Stationary Supplies</h5>
+                        <p class="card-text" style="color: green">Extra 10% OFF</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="swiper-slide">
+                  <div class="card-group">
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card10.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Deals On Sunglasses</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 699</p>
+                        <p class="card-text"><small class="text-muted">Last updated 10 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="spray.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Deals On Deodrants</h5>
+                        <p class="card-text" style="color:green">Extra 30% OFF</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="net.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Deals On Mosquito Nets</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 399</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card6.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">RC's and Toys</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 599 and Extra 15% OFF</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card7.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Womens Footwears</h5>
+                        <p class="card-text" style="color:green">From <i class="fa-solid fa-indian-rupee-sign"></i> 249</p>
+                        <p class="card-text"><small class="text-muted">Exclusive Offers</small></p>
+                      </div>
+                    </div>
+                    <div class="card" style="padding-top: 30px;border: none;">
+                      <img src="card9.webp" class="card-img-top" alt="..." style="width:100px;height:100px;margin-left:70px">
+                      <div class="card-body">
+                        <h5 class="card-title">Mens Footwears</h5>
+                        <p class="card-text" style="color: green">From <i class="fa-solid fa-indian-rupee-sign"></i> 299 Extra 10% OFF</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+               <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  
+             </div>
+          
+          </div>
+
+          <footer>
+            <div class="row" style="border:5px solid #090f17;padding-top: 50px;border-left:10px solid #090f17;padding-bottom: 20px;margin-top: 500px;max-width:100%;margin-left:0.5px;background-color: #090f17;">
+               <div class="col" style="font-size: 12px;color:white;padding-left: 50px;"><span style="color: gray;text-align: center;
+                font-weight: bold;">ABOUT US</span><br><br>
+                Contact Us<br>
+                About Us<br>
+                Careers<br>
+                Flipkart Stories<br>
+                Press<br>
+                Flipkart Wholesale<br>
+                Corporate Information</div>
+
+                <div class="col" style="font-size: 12px;color:white;"><span style="color: gray;text-align: center;
+                  font-weight: bold;">POLICY</span><br><br>
+                  Return policy<br>
+                  Terms Of Use<br>
+                  Security
+                  </div>
+
+                  <div class="col" style="font-size: 12px;color:white;"><span style="color: gray;text-align: center;
+                    font-weight: bold;">HELP</span><br><br>
+                    Payment<br>
+                    Shipping<br>
+                    Careers<br>
+                    Flipkart Stories
+                   </div>
+
+                    <div class="col" style="font-size: 12px;color:white;"><span style="color: gray;text-align: center;
+                      font-weight: bold;">SOCIAL</span><br><br>
+                      Twitter<br>
+                      Facebook<br>
+                      Youtube</div>
+
+                    
+                      
+
+                      <div class="col" style="font-size: 12px;color:white;border-left:1px solid gray"><span style="color: gray;text-align: center;
+                        font-weight: bold;">Mail Us</span><br><br>
+                        Flipkart Internet Private Limited,<br>
+                        Buildings Alyssa, Begonia &<br>
+                        Clove Embassy Tech Village,<br>
+                        Outer Ring Road, Devarabeesanahalli Village,<br>
+                        Bengaluru, 560103,<br>
+                        Karnataka, India</div>
+
+                        <div class="col" style="font-size: 12px;color:white;"><span style="color: gray;text-align: center;
+                          font-weight: bold;">Registered Office Address</span><br><br>
+                          Flipkart Internet Private Limited,<br>
+                          Buildings Alyssa, Begonia &<br>
+                          Clove Embassy Tech Village<br>
+                          Outer Ring Road, Devarabeesanahalli Village<br>
+                          Bengaluru, 560103<br>
+                          Karnataka, India<br>
+                          CIN : U51109KA2012PTC066107<br>
+                          Telephone: 044-45614700</div>
+                   
+                          <div style="width:100%;background-color:#090f17;padding-top:15px;border-top: 1px solid gray;margin-top:20px;">
+                            <div class="row">
+                                <div class="col" style="text-align: center;"><i class="fa-solid fa-suitcase" style="color:yellow"></i>  <span style="color:white">Become A Seller</span></div>
+                                <div class="col" style="text-align: center;"><i class="fa-solid fa-star" style="color: yellow;"></i>  <span style="color:white">Advertise Your Brand</span></div>
+                                <div class="col" style="text-align: center;"><i class="fa-solid fa-gift" style="color:yellow"></i> <span style="color:white">Gift Cards</span></div>
+                                <div class="col"><i class="fa-solid fa-circle-question" style="color: yellow;"></i> <span style="color:white">Help Center</span></div>
+                                <div class="col"><i class="fa-solid fa-copyright" style="color: white;"></i> <span style="color: white;">2007-2022 Flipkart.com</span></div>
+                                <div class="col"><img src="small1.webp" style="width:20px"> <img src="small2.webp" style="width:20px"> <img src="small3.webp" style="width:20px"> <img src="small4.webp" style="width:20px;height:15px"> <img src="small5.webp" style="width:20px"> <img src="small6.webp" style="width:20px;height:15px"></div>
+                            </div>
+
+                          </div>
+
+
+               
+
+
+          </footer>
+           
+
+
+      <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+      crossorigin="anonymous">
+      const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+      </script>
+
+      <script>
+        document.getElementById('result').innerHTML="HELLO "+localStorage.getItem("name");
+      </script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script>
+        const swiper = new Swiper('.swiper', { 
+
+          autoplay:{
+            delay:4000,
+            disableOnInteraction:false,
+          },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+      </script>
+</body>
+</html>
